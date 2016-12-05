@@ -1,0 +1,104 @@
+body {
+  overflow: hidden;
+}
+
+#app {
+  height: inherit;
+}
+
+.App {
+  height: inherit;
+}
+
+.ui.segment {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.container.grid.top.ui {
+  margin-top: 0.4em;
+}
+
+.ui.segment.clock {
+  padding: 2.5rem;
+}
+
+.clock .ui.header {
+  text-align: center;
+}
+
+.clock h1.ui.header {
+  margin-bottom: 0em;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.clock div.sub.header {
+  margin-top: 0.2em !important;
+}
+
+.weather h2.ui.header {
+  margin-bottom: 0.3em;
+}
+
+.weather div.ui.tiny.label {
+  margin-bottom: 0.35em;
+}
+
+
+.bottom.ui.grid.container {
+  margin-top: 0em;
+}
+
+.weather div.ui.horizontal.segments {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.ui.basic.segment.hourly {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  text-align: center;
+}
+
+.hourly img {
+  width: 2.8em;
+}
+
+.hourly h3 {
+  margin-top: 0.2em;
+}
+
+.hourly h4 {
+  margin-bottom: 0.2em;
+}
+
+.timetable {
+  padding-bottom: 0.15em;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+span.mta-bullet {
+  margin-top: 0.15em;
+}
+
+.ui.vertical.segment.arrival {
+  padding-top: 0.85em;
+  padding-bottom: 0.85em;
+}
